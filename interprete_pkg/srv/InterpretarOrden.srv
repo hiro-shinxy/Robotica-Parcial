@@ -1,8 +1,0 @@
-string frase
----
-string accion
-string objeto
-string color
-int32 prioridad
-bool permitido
-bool degradado
