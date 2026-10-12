@@ -1,0 +1,17 @@
+string frase
+---
+string accion
+string objeto
+string color
+int32 prioridad
+bool permitido
+bool degradado
+string metodo
+float64 latencia_laya_ms
+float64 latencia_red_ms
+string detalle_error
+string accion_local
+string objeto_local
+string color_local
+int32 prioridad_local
+bool permitido_local
