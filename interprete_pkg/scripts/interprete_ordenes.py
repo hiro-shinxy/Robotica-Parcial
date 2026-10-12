@@ -8,7 +8,7 @@ class InterpreteOrdenes(Node):
     def __init__(self):
         super().__init__('interprete_ordenes')
         self.declare_parameter('timeout_laya', 2.0)
-        self.laya_url = "http://172.51.1.2:8000/v1/systemone" 
+        self.laya_url = "http://172.51.1.14:8000/v1/systemone" 
         self.srv = self.create_service(InterpretarOrden, '/interpretar_orden', self.interpretar_callback)
         self.get_logger().info('Servicio /interpretar_orden listo (Prioridad 1 a 5).')
 
